@@ -18,8 +18,7 @@ python single_match.py
 ## Installation and demo
 git clone --quiet https://github.com/wajuda/Imagematch/
 
-!pip install --progress-bar off --quiet -e .
-
+python -m pip install -e .
 ## Examples
 
 ### E.g 1
