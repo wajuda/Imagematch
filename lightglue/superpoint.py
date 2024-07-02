@@ -109,7 +109,7 @@ class SuperPoint(Extractor):
         "nms_radius": 4,
         "max_num_keypoints": None,
         "detection_threshold": 0.0005,
-        "remove_borders": 4,
+        "remove_borders": 50,
     }
 
     preprocess_conf = {
