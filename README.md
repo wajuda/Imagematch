@@ -16,9 +16,11 @@ python single_match.py
 ```
 
 ## Installation and demo
+```bash
 git clone --quiet https://github.com/wajuda/Imagematch/
 
 python -m pip install -e .
+```
 ## Examples
 
 ### E.g 1
