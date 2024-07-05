@@ -10,9 +10,16 @@
 ```bash
 python single_match.py
 ```
+## Use for single_image
+```bash
+python multi_match.py
+```
 ## Tips
 ```txt
 在lightglue/superpoint.py设置了"remove_borders": 50以忽略图片周围时间文字，但不一定全适用
+```
+```txt
+在lightglue/match.py设置了特征点匹配数少于20则放弃匹配
 ```
 
 ## Installation and demo
