@@ -30,7 +30,6 @@ def SR(img, scales):
  
 def MSR(img):
     scales = [15, 101, 301] #可调整的位置
-    print(img.shape)
     b_gray, g_gray, r_gray = cv2.split(img)
     b_gray = SR(b_gray, scales)
     g_gray = SR(g_gray, scales)
