@@ -10,7 +10,7 @@
 ```bash
 python single_match.py
 ```
-## Use for single_image
+## Use for images in the folder
 ```bash
 python multi_match.py
 ```
